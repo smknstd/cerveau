@@ -26,12 +26,9 @@ img.logo {
 }
 
 .header {
-    background-color: #ffffff;
-    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
     padding: 20px 40px;
     height: 80px;
-    color: #292c2f;
-    box-sizing: border-box;
+    color: #ffffff;
 }
 
 .icon {
@@ -39,11 +36,10 @@ img.logo {
     position: relative;
     right: 30px;
     margin-left: 25px;
-    font-size: 38px;
-}
-
-.icon.message {
-    top: -1px;
+    font-size: 18px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    text-decoration: underline;
+    opacity: 0.8;
 }
 
 a { color: inherit; }
